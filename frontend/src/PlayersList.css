@@ -1,0 +1,47 @@
+.player-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.player-card {
+    background-color: #f8f9fa;
+    border: 2px solid #d4af37;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px;
+}
+
+.player-card:hover {
+    transform: translateY(-5px);
+}
+
+.player-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+    border-bottom: 2px solid #d4af37;
+}
+
+.player-photo:hover {
+    transform: scale(1.1);
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: black;
+    background-color:white;
+    font-size: 1.2rem;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+
+}

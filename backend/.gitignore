@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs
+.idea/
+.vscode/
+
+# Environment files
+.env
+
+# Temporary files
+*.tmp
+*.temp

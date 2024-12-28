@@ -1,0 +1,57 @@
+.winners-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.winners-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.winner-card {
+    background-color: #f8f9fa;
+    border: 2px solid #d4af37;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px;
+}
+
+.winner-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.winner-year {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+    color: #333;
+}
+
+.winner-picture {
+    width: 100%;
+    padding-top: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+    border-bottom: 2px solid #d4af37;
+}
+
+.winner-picture:hover {
+    transform: scale(1.1);
+}
+
+.winner-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #d4af37;
+}
+
